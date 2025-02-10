@@ -9,7 +9,6 @@ use std::error::Error;
 
 use indicatif::{ProgressBar, ProgressStyle};  // 新增进度条库
 use std::env;
-use std::path::Path;
 
 const ROWS_PER_FILE: usize = 1_000_000;
 // const ROWS_PER_FILE: usize = 1_00_000;

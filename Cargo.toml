@@ -12,25 +12,24 @@ xlsxwriter = "0.6.1"     # 或检查最新版本
 csv = "1.1"              # 用于处理CSV文件的crate
 indicatif = "0.17.9"
 chrono = "0.4"           # 用于时间格式化
-crossbeam = "0.8.4"
-num_cpus = "1.13"
 
 rust_xlsxwriter = { version = "0.81.0", features = ["constant_memory", "zlib", "ryu"] }  # 官方维护的高性能 Excel 库
-rayon = "1.10.0"
-bytecount = "0.6"
-once_cell = "1.17"
-memmap2 = "0.9.5"
-crossbeam-channel = "0.5.14"
 
-csv-async = { version = "1.3", features = ["tokio"] } # 必须启用tokio特性
-tokio = { version = "1.0", features = ["full", "rt-multi-thread"] }
-tokio-util = { version = "0.7", features = ["io"] } # 不再需要compat特性
+# rayon = "1.10.0"
+# bytecount = "0.6"
+# once_cell = "1.17"
+# memmap2 = "0.9.5"
+# crossbeam-channel = "0.5.14"
 
-futures = "0.3"
-tokio-stream = "0.1.17"
-futures-util = "0.3.31"
+# csv-async = { version = "1.3", features = ["tokio"] } # 必须启用tokio特性
+# tokio = { version = "1.0", features = ["full", "rt-multi-thread"] }
+# tokio-util = { version = "0.7", features = ["io"] } # 不再需要compat特性
 
-flume = "0.11.1"
+# futures = "0.3"
+# tokio-stream = "0.1.17"
+# futures-util = "0.3.31"
+
+# flume = "0.11.1"
 
 
 [dev-dependencies]
