@@ -6,6 +6,8 @@ license = "MIT"
 description = "Fast and simple opensource tool to convert CSV to multi XLSX"
 repository = "https://github.com/Zcb991/csv2xlsx-pro"
 homepage = "https://github.com/Zcb991/csv2xlsx-pro"
+build = "build.rs"
+
 
 [dependencies]
 xlsxwriter = "0.6.1"     # 或检查最新版本
@@ -39,3 +41,7 @@ rand = "0.8" # 示例中使用的随机数生成库
 [[bench]]
 name = "my_benchmark"
 harness = false
+
+
+[build-dependencies]
+winres = "0.1"
